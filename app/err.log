@@ -1,0 +1,58 @@
+
+> mini-todo@1.0.0 start /Users/Jiao/learn_react/test
+> npm run build && npm run dev-server
+
+
+> mini-todo@1.0.0 build /Users/Jiao/learn_react/test
+> ./node_modules/webpack/bin/webpack.js
+
+Hash: 14c95941bf10d2ceb952
+Version: webpack 1.12.2
+Time: 1269ms
+           Asset    Size  Chunks             Chunk Names
+public/bundle.js  676 kB       0  [emitted]  main
+    + 159 hidden modules
+
+ERROR in ./app/components/ListContainer.js
+Module build failed: Error: Parse Error: Line 24: Unexpected token }
+    at throwError (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:2818:21)
+    at throwUnexpected (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:2880:9)
+    at expect (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:2889:13)
+    at parseArguments (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3618:21)
+    at parseLeftHandSideExpressionAllowCall (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3686:24)
+    at parsePostfixExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3722:20)
+    at parseUnaryExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3752:20)
+    at parseBinaryExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3879:16)
+    at parseConditionalExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3939:16)
+    at parseAssignmentExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:4192:16)
+    at parseExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:4249:16)
+    at parseStatement (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:5702:16)
+    at parseSourceElement (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:6475:20)
+    at parseFunctionSourceElements (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:5780:29)
+    at parseFunctionExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:6066:16)
+    at parsePrimaryExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3537:24)
+    at parseLeftHandSideExpressionAllowCall (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3682:61)
+    at parsePostfixExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3722:20)
+    at parseUnaryExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3789:16)
+    at parseBinaryExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3879:16)
+    at parseConditionalExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3939:16)
+    at parseAssignmentExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:4192:16)
+    at parseObjectProperty (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3193:25)
+    at parseObjectInitialiser (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3396:28)
+    at parsePrimaryExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3570:20)
+    at parseLeftHandSideExpressionAllowCall (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3682:61)
+    at parsePostfixExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3722:20)
+    at parseUnaryExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3789:16)
+    at parseBinaryExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3879:16)
+    at parseConditionalExpression (/Users/Jiao/learn_react/test/node_modules/jsx-loader/node_modules/jstransform/node_modules/esprima-fb/esprima.js:3939:16)
+ @ ./app/App.js 2:20-57
+
+> mini-todo@1.0.0 dev-server /Users/Jiao/learn_react/test
+> node_modules/http-server/bin/http-server -p 3000 public/
+
+[33mStarting up http-server, serving [39m[36mpublic/[39m[33m
+Available on:[39m
+[32m  http:127.0.0.1:3000[39m
+[32m  http:192.168.2.195:3000[39m
+Hit CTRL-C to stop the server
+[31mhttp-server stopped.[39m

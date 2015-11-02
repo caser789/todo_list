@@ -1,0 +1,21 @@
+{
+  "name": "mini-todo",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "start": "npm run build && npm run dev-server",
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "dev-server": "node_modules/http-server/bin/http-server -p 3000 public/"
+  },
+  "dependencies": {
+    "axios": "^0.7.0",
+    "events": "^1.1.0",
+    "flux": "^2.1.1",
+    "react": "^0.14.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.2",
+    "http-server": "^0.8.5",
+    "jsx-loader": "^0.13.2"
+  }
+}
